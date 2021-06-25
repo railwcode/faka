@@ -1,6 +1,4 @@
-FROM wjy20030407/card-system
+FROM wjy20030407/card-system:latest
   
-RUN cd /usr/local/bin && \
-    ./docker-php-ext-install bcmath
     
 EXPOSE $PORT
