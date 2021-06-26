@@ -1,4 +1,4 @@
-FROM wjy20030407/card-system:latest
+FROM wjy20030407/card-system:dev
   
     
 EXPOSE $PORT
